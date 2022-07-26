@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="GCP_Services\GCP_Location_Asset_CIs.cs" />
+    <Compile Remove="GCP_Services\GCP_Location_Based_CIs.cs" />
+    <Compile Remove="GCP_Services\GCP_Overall_Service.cs" />
+    <Compile Remove="GCP_Services\GCP_Project_Asset_CIs.cs" />
+    <Compile Remove="GCP_Services\GCP_Project_Based_CIs.cs" />
+    <Compile Remove="GCP_Services\GCP_VM__Based_CIs - Copy.cs" />
+    <Compile Remove="GCP_Services\GCP_Zone_Based_CIs.cs" />
+    <Compile Remove="Models\ComputeEngineVM_Attributes.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.16.0" />
+    <PackageReference Include="Google.Apis.Appengine.v1" Version="1.57.0.2641" />
+    <PackageReference Include="Google.Apis.ArtifactRegistry.v1" Version="1.57.0.2647" />
+    <PackageReference Include="Google.Apis.Auth" Version="1.57.0" />
+    <PackageReference Include="Google.Apis.CertificateManager.v1" Version="1.57.0.2639" />
+    <PackageReference Include="Google.Apis.CloudFunctions.v1" Version="1.57.0.2632" />
+    <PackageReference Include="Google.Apis.CloudResourceManager.v1" Version="1.57.0.2649" />
+    <PackageReference Include="Google.Apis.Compute.v1" Version="1.57.0.2637" />
+    <PackageReference Include="Google.Apis.Container.v1" Version="1.57.0.2623" />
+    <PackageReference Include="Google.Apis.Container.v1beta1" Version="1.57.0.2627" />
+    <PackageReference Include="Google.Apis.Datastore.v1" Version="1.57.0.2634" />
+    <PackageReference Include="Google.Apis.Dns.v1" Version="1.57.0.2583" />
+    <PackageReference Include="Google.Apis.OSConfig.v1" Version="1.57.0.2634" />
+    <PackageReference Include="Google.Apis.SecretManager.v1" Version="1.57.0.2633" />
+    <PackageReference Include="Google.Apis.Sheets.v4" Version="1.57.0.2637" />
+    <PackageReference Include="Google.Apis.SQLAdmin.v1" Version="1.57.0.2646" />
+    <PackageReference Include="Google.Apis.Storage.v1" Version="1.57.0.2647" />
+    <PackageReference Include="Google.Cloud.AppEngine.V1" Version="1.2.0" />
+    <PackageReference Include="Google.Cloud.BigQuery.V2" Version="2.3.0" />
+    <PackageReference Include="Google.Cloud.Container.V1" Version="2.7.0" />
+    <PackageReference Include="RestSharp" Version="107.3.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,160 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\WB895KG\\source\\repos\\GCP_Attributes_EV\\GCP_Attributes_EV\\GCP_Attributes_EV.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\WB895KG\\source\\repos\\GCP_Attributes_EV\\GCP_Attributes_EV\\GCP_Attributes_EV.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\WB895KG\\source\\repos\\GCP_Attributes_EV\\GCP_Attributes_EV\\GCP_Attributes_EV.csproj",
+        "projectName": "GCP_Attributes_EV",
+        "projectPath": "C:\\Users\\WB895KG\\source\\repos\\GCP_Attributes_EV\\GCP_Attributes_EV\\GCP_Attributes_EV.csproj",
+        "packagesPath": "C:\\Users\\WB895KG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\WB895KG\\source\\repos\\GCP_Attributes_EV\\GCP_Attributes_EV\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\WB895KG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.16.0, )"
+            },
+            "Google.Apis.Appengine.v1": {
+              "target": "Package",
+              "version": "[1.57.0.2641, )"
+            },
+            "Google.Apis.ArtifactRegistry.v1": {
+              "target": "Package",
+              "version": "[1.57.0.2647, )"
+            },
+            "Google.Apis.Auth": {
+              "target": "Package",
+              "version": "[1.57.0, )"
+            },
+            "Google.Apis.CertificateManager.v1": {
+              "target": "Package",
+              "version": "[1.57.0.2639, )"
+            },
+            "Google.Apis.CloudFunctions.v1": {
+              "target": "Package",
+              "version": "[1.57.0.2632, )"
+            },
+            "Google.Apis.CloudResourceManager.v1": {
+              "target": "Package",
+              "version": "[1.57.0.2649, )"
+            },
+            "Google.Apis.Compute.v1": {
+              "target": "Package",
+              "version": "[1.57.0.2637, )"
+            },
+            "Google.Apis.Container.v1": {
+              "target": "Package",
+              "version": "[1.57.0.2623, )"
+            },
+            "Google.Apis.Container.v1beta1": {
+              "target": "Package",
+              "version": "[1.57.0.2627, )"
+            },
+            "Google.Apis.Datastore.v1": {
+              "target": "Package",
+              "version": "[1.57.0.2634, )"
+            },
+            "Google.Apis.Dns.v1": {
+              "target": "Package",
+              "version": "[1.57.0.2583, )"
+            },
+            "Google.Apis.OSConfig.v1": {
+              "target": "Package",
+              "version": "[1.57.0.2634, )"
+            },
+            "Google.Apis.SQLAdmin.v1": {
+              "target": "Package",
+              "version": "[1.57.0.2646, )"
+            },
+            "Google.Apis.SecretManager.v1": {
+              "target": "Package",
+              "version": "[1.57.0.2633, )"
+            },
+            "Google.Apis.Sheets.v4": {
+              "target": "Package",
+              "version": "[1.57.0.2637, )"
+            },
+            "Google.Apis.Storage.v1": {
+              "target": "Package",
+              "version": "[1.57.0.2647, )"
+            },
+            "Google.Cloud.AppEngine.V1": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Google.Cloud.BigQuery.V2": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Google.Cloud.Container.V1": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[107.3.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
